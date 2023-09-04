@@ -2,7 +2,7 @@
 
 const LoginForm = () => {
   return (
-    <div></div>
+    <div className="w-1/2">Login Form</div>
   )
 }
 

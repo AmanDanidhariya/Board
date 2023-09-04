@@ -2,7 +2,7 @@ import React from 'react'
 
 const Users = () => {
   return (
-    <div>Users</div>
+    <div className='text-4xl text-center font-bold mt-[15%]'>Users</div>
   )
 }
 

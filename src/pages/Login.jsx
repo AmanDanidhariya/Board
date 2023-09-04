@@ -3,7 +3,7 @@ import SocialMedia from "../components/SocialMedia"
 
 const Login = () => {
   return (
-    <div>
+    <div className="flex h-screen">
         <SocialMedia/>
         <LoginForm/>
     </div>
