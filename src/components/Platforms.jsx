@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Platforms = () => {
   return (
-    <div className='flex ml-[25%] w-[300px] justify-between text-3xl text-white'>
+    <div className='flex ml-[25%] max-w-[300px] justify-between text-3xl text-white'>
         <Link to="https://github.com/"><FaGithub/></Link>
         <Link to="https://twitter.com/"><FaSquareTwitter/></Link>
         <Link to="https://www.linkedin.com/"><FaLinkedin/></Link>
