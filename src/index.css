@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-.login_background{
-        background: linear-gradient(104deg, #4285F4 80%, #8C6BC800 80%);   
+.login_background {
+  background: linear-gradient(104deg, #4285f4 80%, #8c6bc800 80%);
+}
+.navbar_background{
+  background: linear-gradient(
+    90deg,
+    rgba(66, 133, 244, 1) 100%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }

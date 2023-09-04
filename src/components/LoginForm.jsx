@@ -2,7 +2,9 @@ import { FcGoogle } from "react-icons/fc";
 import { BsApple } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
+
 const LoginForm = () => {
+
   return (
     <>
       <div className="w-[423px]">
