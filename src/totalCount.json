@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "revenue": "21,29,430",
+    "percent": "2.5",
+    "type": "Revenues"
+  },
+  {
+    "id": 2,
+    "revenue": "1520",
+    "percent": "1.7",
+    "type": "Transactions"
+  },
+  {
+    "id": 3,
+    "revenue": "9721",
+    "percent": "1.4",
+    "type": "Likes"
+  },
+  {
+    "id": 4,
+    "revenue": "9721",
+    "percent": "4.2",
+    "type": "users"
+  }
+]
