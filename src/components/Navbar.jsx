@@ -9,8 +9,8 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div>
-      <div className="leading-normal text-4xl text-white font-extrabold ml-10 py-6 text-Montserrat">
+    <>
+      <div className="leading-normal text-4xl text-white font-extrabold ml-10 py-6 text-montserrat">
         Board.
       </div>
       {/* navigation start */}
@@ -47,12 +47,16 @@ const Navbar = () => {
         </li>
       </ul>
       {/* navigation end */}
-      
-        <ul className="text-white text-lg ml-10 mt-[90%]">
-            <li className="py-2"><NavLink>Help</NavLink></li>
-            <li className="py-2"><NavLink>Contact Us</NavLink></li>
-        </ul>
-    </div>
+
+      <ul className="text-white text-lg ml-10 mt-[140%]">
+        <li className="py-2">
+          <NavLink>Help</NavLink>
+        </li>
+        <li className="py-2">
+          <NavLink>Contact Us</NavLink>
+        </li>
+      </ul>
+    </>
   );
 };
 

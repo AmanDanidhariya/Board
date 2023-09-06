@@ -3,24 +3,28 @@
         "id":1,
         "country":"Afghanistan",
         "casesPerOneMillion":5531,
-        "recoveredPerOneMillion":5051.11
+        "recoveredPerOneMillion":5051.11,
+        "death":7944
     },
     {
         "id":2,
         "country":"Albania",
         "casesPerOneMillion":11677,
-        "recoveredPerOneMillion":11492
+        "recoveredPerOneMillion":11492,
+        "death": 3602
     },
     {
         "id":3,
         "country":"Algeria",
         "casesPerOneMillion":1984,
-        "recoveredPerOneMillion":1400
+        "recoveredPerOneMillion":1400,
+        "death":6881
     },
     {
         "id":4,
         "country":"Andorra",
         "casesPerOneMillion":5995,
-        "recoveredPerOneMillion":4036
+        "recoveredPerOneMillion":4036,
+        "death":1305
     }
 ]

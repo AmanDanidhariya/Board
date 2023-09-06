@@ -23,8 +23,8 @@ const Chart = ({ data }) => {
         <YAxis />
         <Tooltip />
         <Legend align="right" verticalAlign="top" iconType="circle"/>
-        <Bar dataKey="casesPerOneMillion" fill="#98D89E" barSize={40} />
-        <Bar dataKey="recoveredPerOneMillion" fill="#EE8484" barSize={40} />
+        <Bar dataKey="casesPerOneMillion" fill="#98D89E" barSize={35}/>
+        <Bar dataKey="recoveredPerOneMillion" fill="#EE8484" barSize={35}/>
       </BarChart>
     </>
   );

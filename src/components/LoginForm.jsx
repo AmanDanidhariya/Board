@@ -2,13 +2,11 @@ import { FcGoogle } from "react-icons/fc";
 import { BsApple } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
-
 const LoginForm = () => {
-
   return (
     <>
       <div className="w-[423px]">
-        <div className="font-Montserrat text-4xl font-bold">Sign In</div>
+        <div className="font-montserrat text-4xl font-bold">Sign In</div>
         <div className="leading-10">Sign in to your account</div>
         <div className="flex justify-between text-sm text-gray-500">
           <div className="flex py-1 px-4 bg-white mt-4 rounded-lg">
@@ -45,7 +43,7 @@ const LoginForm = () => {
           </div>
           <button
             type="submit"
-            className="font-Montserrat font-bold text-white bg-[#4285F4] rounded-xl py-2"
+            className="font-montserrat font-bold text-white bg-[#4285F4] rounded-xl py-2"
           >
             Sign In
           </button>
