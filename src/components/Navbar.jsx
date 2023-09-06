@@ -15,7 +15,7 @@ const Navbar = () => {
       </div>
       {/* navigation start */}
       <ul className="flex flex-col text-white text-xl text-semibold ml-10">
-        <li className="flex active:font-bold leading-5 py-4">
+        <li className="flex active:font-bold hover:font-bold leading-5 py-4">
           <span className="mr-4">
             <AiOutlineDashboard size={20} />
           </span>
@@ -48,7 +48,7 @@ const Navbar = () => {
       </ul>
       {/* navigation end */}
       
-        <ul className="text-white text-lg ml-10 mt-20">
+        <ul className="text-white text-lg ml-10 mt-[90%]">
             <li className="py-2"><NavLink>Help</NavLink></li>
             <li className="py-2"><NavLink>Contact Us</NavLink></li>
         </ul>
