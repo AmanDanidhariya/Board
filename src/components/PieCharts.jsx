@@ -4,7 +4,7 @@ import pieChartData from "../chartData.json"
 
 
 const COLORS = [
-    "#0CD664", "#EE8484", "#F6DC7D"]; 
+    "#98D89E", "#EE8484", "#F6DC7D"]; 
 
 const PieCharts = ({chartData}) => {
 

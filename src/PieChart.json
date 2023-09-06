@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "country":"Afghanistan",
+        "death":7944
+    },
+    {
+        "id":2,
+        "country":"Albania",
+        "death": 3602
+    },
+    {
+        "id":3,
+        "country":"Algeria",
+        "death":6881
+    }
+]
