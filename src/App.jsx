@@ -8,6 +8,9 @@ import Users from './pages/Users'
 import Settings from './pages/Settings'
 import Schedules from './pages/Schedules'
 import PageNotFound from './pages/PageNotFound'
+import BasicForm from "./components/BasicForm"
+import ContactForm from './components/ContactForm'
+import ProfileForm from './components/ProfileForm'
 
 function App() {
 
@@ -22,6 +25,10 @@ function App() {
         <Route path="settings" element={<Settings/>}/>
         <Route path="schedules" element={<Schedules/>}/>
         <Route path="*" element={<PageNotFound/>}/>
+        <Route path="addProfile" element={<ProfileForm/>}>
+            <Route index path="basicForm" element={<BasicForm/>}></Route>
+          <Route path="contactForm" element={<ContactForm/>}></Route> 
+          </Route>
       </Routes>
     </BrowserRouter>
     </>

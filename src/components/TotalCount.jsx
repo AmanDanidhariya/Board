@@ -20,7 +20,7 @@ const TotalCount = ({ data }) => {
       {data.map((card, i) => {
         return (
           <div
-            className="w-[237px] h-26 rounded-xl p-3 shadow-lg mr-6"
+            className="w-[237px] h-26 rounded-xl p-3 shadow-lg mr-4"
             key={card.id}
           >
             <div className="text-2xl text-white bg-[#7FCD93] rounded-full w-8 p-1">{iconData[i]}</div>

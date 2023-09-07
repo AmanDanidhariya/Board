@@ -6,7 +6,7 @@ const TopProducts = () => {
   const [chartData] = useState(pieChartData);
 
   return (
-    <div className="w-[50%] h-64  shadow-lg bg-white rounded-xl mt-8 p-2">
+    <>
       <div className="flex justify-around leading-5 mt-2 text-xl">
         <div className="font-montserrat font-bold">Top Countries</div>
         <div className="text-sm text-gray-400">May-june 2021</div>
@@ -32,7 +32,7 @@ const TopProducts = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
